@@ -1,6 +1,6 @@
 # React Native App Store Clone (Expo)
 
-UI
+This project all about app store clone 
 
 ![image](https://github.com/bhandarimanoj612/App-Store-Clone-React-native-/assets/105379940/fad1e32e-e696-432b-8639-6abe9d0ce902)
 
