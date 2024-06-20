@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "App Store",
+    "slug": "Appstore",
+
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appstore.jpeg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/appstore.jpeg"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "sahaj-Yatri",
+          "enableGooglePay": true
+        }
+      ]
+    ]
+  }
+}
